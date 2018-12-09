@@ -20,8 +20,8 @@ Make sure you are in the root directory, and
 
 `virtualenv .env`
 
-`.env install -r requirements.txt`
-
 `source .env/bin/activate` 
+
+`pip install -r requirements.txt`
 
 and then `jupyter notebook <IPYNB FILE>`. Click through the code blocks as in a typical jupyter notebook - the object detection result will be in the last codeblock.
